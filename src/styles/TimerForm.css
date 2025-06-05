@@ -1,0 +1,16 @@
+.timer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.timer-form__content {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.timer-form__content__div {
+    display: flex;
+    flex-direction: column;
+}
