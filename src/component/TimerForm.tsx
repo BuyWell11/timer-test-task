@@ -31,7 +31,7 @@ function TimerForm({ handleSubmit, disableSubmit }: Props) {
     <form onSubmit={formik.handleSubmit} className={'timer-form'}>
       <div className={'timer-form__content'}>
         <div className={'timer-form__content__div'}>
-          <label htmlFor="minutes">Минуты</label>
+          <label>Минуты</label>
           <input
             type="number"
             name="minutes"
@@ -44,7 +44,7 @@ function TimerForm({ handleSubmit, disableSubmit }: Props) {
           ) : null}
         </div>
         <div className={'timer-form__content__div'}>
-          <label htmlFor="seconds">Секунды</label>
+          <label>Секунды</label>
           <input
             type="number"
             name="seconds"

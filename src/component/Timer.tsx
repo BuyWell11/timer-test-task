@@ -51,7 +51,7 @@ export default function Timer() {
   }, [running]);
 
   return (
-    <>
+    <div className={'timer'}>
       <TimerForm handleSubmit={handleTimer} disableSubmit={running} />
       <div>
         <div className={'timer__dial'}>
@@ -72,6 +72,6 @@ export default function Timer() {
           }}><RiResetLeftFill /></button>
         </div>
       </div>
-    </>
+    </div>
   );
 }

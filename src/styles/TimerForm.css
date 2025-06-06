@@ -7,7 +7,14 @@
 .timer-form__content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 8px;
+}
+
+@media (max-width: 600px) {
+    .timer-form__content {
+        flex-direction: column;
+    }
 }
 
 .timer-form__content__div {
